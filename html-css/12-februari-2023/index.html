@@ -29,25 +29,41 @@
         <li>India</li>
     </ol>
 
+    <br>
+    <br>
+
     <form>
         <label for="username">Username</label>
-        <input type="text" name="username">
-        <input type="email">
-        <input type="password">
+        <input type="text" id="username" name="username">
 
         <br>
-        <input type="radio" name="gender" value="laki-laki">
-        <label for="gender">Laki - laki</label>
-        <input type="radio" name="gender" value="perempuan">
-        <label for="gender">Perempuan</label>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+
         <br>
-        <input type="checkbox">
-        <input type="checkbox">
-        <input type="checkbox">
+
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password">
+
+        <br>
+
+        <br>
+        <input type="radio" name="gender" id="laki-laki" value="laki-laki">
+        <label for="laki-laki">Laki - laki</label>
+        <input type="radio" name="gender" id="perempuan" value="perempuan">
+        <label for="perempuan">Perempuan</label>
+        <br>
+        <input type="checkbox" id="fe" name="fe" value="frontend">
+        <label for="fe">Front-End</label>
+        <input type="checkbox" id="be" name="be" value="backend">
+        <label for="be">Back-End</label>
+        <input type="checkbox" id="fs" name="fs" value="fullstack">
+        <label for="fs">Fullstack</label>
         <input type="submit" value="button">
 
     </form>
 
-    <button>button</button>
+    <button type="submit">button</button>
 </body>
 </html>
